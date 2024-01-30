@@ -19,7 +19,7 @@ export default function Nav(){
   }, [scrolling]);
     return(
       <>
-        <div className="navbar bg-base-200 border-b-4 gradient-border " id="top-section">
+        <div className="navbar bg-white   " id="top-section">
         <div className="flex-1">
     <a className="btn btn-ghost text-xl">Kuya Wheels</a>
   </div>
@@ -39,7 +39,9 @@ export default function Nav(){
       </li>
     </ul>
   </div>
+  
 </div>
+<div className="divider divider-primary m-0"></div>
 <Link href="#top-section">
         <button
           className="btn btn-ghost fixed bottom-4 right-4"
