@@ -30,7 +30,7 @@ export default function Home() {
           <div class="divider divider-success">
           <h1 className="md:text-3xl text-xl ">Where are we located</h1></div>
         </header>
-       
+
         <div className="flex flex-col sm:flex-row justify-center gap-8 md:p-4 p-4">
           <div>
           <div className="card card-compact bg-white lg:w-[30vw] mb-2 md:w-[45vw] w-full ">
@@ -65,7 +65,7 @@ export default function Home() {
           <div class="divider divider-success">
           <h1 className="md:text-3xl text-xl ">What we do</h1></div>
         </header>
-       
+
         <div className="flex flex-col sm:flex-row justify-center gap-8 md:p-12 p-4">
           <div className="card card-compact  md:w-[45vw] w-full shadow-xl">
             <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
