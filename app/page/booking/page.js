@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Booking(){
     return(
         <>
@@ -27,37 +29,29 @@ export default function Booking(){
                     <div class="max-w-sm mx-auto lg:mr-0 lg:ml-auto">
                         <div
                             class="p-6 mb-6 text-center bg-white border rounded-md dark:border-gray-800 dark:bg-gray-800">
-                            <form action="">
+                            <form action="/page/auth/register">
                                 <div class="mb-6">
-                                    <span class="text-sm text-blue-400 dark:text-blue-300">Sign Up</span>
-                                    <h2 class="text-2xl dark:text-gray-400">Create an account</h2>
+                                    
+                                    <h2 class="text-2xl dark:text-gray-400">Book a course now</h2>
                                 </div>
-                                <div class="flex flex-wrap mb-4 -mx-2">
-                                    <div class="w-full px-2 mb-4 lg:mb-0 lg:w-1/2">
-                                        <input
-                                            class="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                                            type="text" placeholder="First Name.."/>
-                                    </div>
-                                    <div class="w-full px-2 lg:w-1/2">
-                                        <input
-                                            class="w-full px-3 py-2 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                                            type="text" placeholder="Last Name.."/>
-                                    </div>
-                                </div>
-                                <input
-                                    class="w-full px-3 py-2 mb-4 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                                    type="email" placeholder="abc@gmail.com" />
-                                <input
-                                    class="w-full px-3 py-2 mb-4 leading-loose bg-gray-100 border rounded-md dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700"
-                                    type="password" placeholder="Enter your password.." />
-                                <button
-                                    class="w-full py-4 mb-2 text-sm font-bold leading-normal text-white transition-all duration-300 bg-blue-600 rounded-md hover:rounded-3xl hover:bg-blue-700">
+                             
+  <div className="mb-5">
+    <p className="my-2 ">Requirements</p>
+    <ul className="max-w-md space-y-1 text-gray-500 list-disc text-left list-inside dark:text-gray-400" >
+        <li>Ballpen</li>
+        <li>Notebook</li>
+        <li>1pc 2x2 picture</li>
+        <li className="text-sm">1 Photocopy of Professional Drivers License with RC 2 or 4 for a period of at least one (1) year prior to the application</li>
+    </ul>
+    </div>                  
+
+                                <button href="/page/auth/register" class="w-full py-4 mb-2 text-sm font-bold leading-normal text-white transition-all duration-300 bg-blue-600 rounded-md hover:rounded-3xl hover:bg-blue-700">
                                     Sign Up
                                 </button>
                             </form>
                             <p class="text-xs text-gray-400">
                                 <span>Already have an account?</span>
-                                <a class="text-blue-600 hover:text-blue-400 dark:text-blue-300" href="#">Sign In</a>
+                                <a class="text-blue-600 hover:text-blue-400 dark:text-blue-300" href="/page/auth/login">Sign In</a>
                             </p>
                         </div>
                     </div>
