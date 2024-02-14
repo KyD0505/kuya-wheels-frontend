@@ -3,10 +3,12 @@ import Carousel from "@/app/_components/carousel";
 import useScrollToSection from "@/app/_hooks/scrollToPage";
 import Image from "next/image";
 import { useState, useEffect } from 'react';
+import { setHomePageIndex } from "../../../_hooks/pageIndexes";
 
 export default function About(){
-    const scrollToSection = useScrollToSection();
-    const [certifications, setCertifications] = useState([]);
+  setHomePageIndex(1);
+  const scrollToSection = useScrollToSection();
+  const [certifications, setCertifications] = useState([]);
 
     useEffect(() => {
       // Define certification data locally
@@ -51,7 +53,7 @@ export default function About(){
   </div>
 </section>
 
-<hr class="my-1 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25" />
+<hr className="my-1 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25" />
 
 <section className="items-center lg:flex lg:h-screen font-poppins md:mt-10 flex flex-col mx-auto">
   <div className="relative text-center px-10 lg:px-24">

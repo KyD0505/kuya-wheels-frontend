@@ -1,6 +1,10 @@
 import Link from "next/link";
+import { setHomePageIndex } from "../../../_hooks/pageIndexes";
 
 export default function Booking(){
+
+  setHomePageIndex(1);
+
     return(
         <>
         <section className="lg:flex lg:h-screen font-poppins md:mt-10 flex flex-col mx-auto">
