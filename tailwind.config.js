@@ -11,7 +11,11 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "home-wheels": "url('/assets/proof2.jpg')",
       },
+      backgroundColor: {
+        'overlay-dark': 'rgba(0, 0, 0, 0.8)',
+      }
     },
   },
   plugins: [],

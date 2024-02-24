@@ -19,7 +19,7 @@ export default function Login(){
             </div>
             <div class="w-full px-4 lg:w-2/5">
               <div class="p-6 shadow-md lg:p-9 bg-gray-50">
-                <h2 class="mb-4 text-xl font-bold lg:mb-8 lg:text-3xl">Login our account</h2>
+                <h2 class="mb-4 text-xl font-bold lg:mb-8 lg:text-3xl text-gray-700 text-center">Login our account</h2>
                 <form action="" class="p-0 m-0">
                   <div>
                     <label for="" class="text-lg font-medium text-gray-700">Email:</label>
