@@ -14,6 +14,10 @@ export default function Home() {
     <main className="flex h-fit flex-col items-center justify-between overflow-x-hidden" id="top-section">
   <section className="md:h-[90vh] h-fit w-screen xl:px-36 md:px-12 xl:py-24 py-12 p-4 flex flex-col md:flex-row justify-center gap-5">
     <section class="bg-white">
+    <div class="absolute left-0 w-full h-full bg-gray-50 lg:bottom-0 lg:h-auto lg:w-full">
+            <div class="absolute inset-0 lg:bg-[#00000066]"></div>
+            <img src="/assets/proof1.jpg" alt="" class="hidden object-cover w-full h-full lg:block" />
+          </div>
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
           <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Kuya Wheels Driving School offers driving education that you can count on!</h1>
