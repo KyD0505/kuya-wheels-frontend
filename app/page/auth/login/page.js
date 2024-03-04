@@ -7,7 +7,7 @@ export default function Login(){
   <div class="relative z-10 flex justify-center h-screen">
     <div class="absolute top-0 bottom-0 left-0 w-full h-full bg-gray-50 lg:bottom-0 lg:h-auto lg:w-full">
       <div class="absolute inset-0 lg:bg-[#00000066]"></div>
-      <img src="https://images.pexels.com/photos/7321/sea-water-ocean-horizon.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="hidden object-cover w-full h-full lg:block" />
+      <img src="https://images.pexels.com/photos/977213/pexels-photo-977213.jpeg?cs=srgb&dl=pexels-l%C3%AA-minh-977213.jpg&fm=jpg&_gl=1*df8dsv*_ga*NjU5NTUyNzA2LjE3MDkwMDI0MDQ.*_ga_8JE65Q40S6*MTcwOTAwMjQwNS4xLjAuMTcwOTAwMjQwNS4wLjAuMA.." alt="" class="hidden object-cover w-full h-full lg:block" />
     </div>
     <div class="flex items-center justify-center">
       <div class="relative max-w-6xl px-4 mx-auto">
@@ -18,7 +18,7 @@ export default function Login(){
               <p class="text-lg text-left text-gray-200">You are welcome here!</p>
             </div>
             <div class="w-full px-4 lg:w-2/5">
-              <div class="p-6 shadow-md lg:p-9 bg-gray-50">
+              <div class="p-6 shadow-md lg:p-9 bg-gray-50 rounded-xl">
                 <h2 class="mb-4 text-xl font-bold lg:mb-8 lg:text-3xl text-gray-700 text-center">Login our account</h2>
                 <form action="" class="p-0 m-0">
                   <div>

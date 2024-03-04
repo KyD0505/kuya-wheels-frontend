@@ -30,7 +30,7 @@ export default function About(){
     }, []);
     return(
         <>
-    <section className="items-center lg:flex lg:h-screen font-poppins md:mt-10 flex flex-col mx-auto">
+    <section className="bg-gray-700 items-center lg:flex lg:h-screen font-poppins md:mt-10 flex flex-col mx-auto">
       <div className="lg:mt-24 flex flex-col flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
@@ -40,10 +40,10 @@ export default function About(){
           </div>
           <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0">
             <div className="pl-4 mb-6 border-l-4 border-blue-500">
-              <span className="text-sm text-gray-600 uppercase">Who we are?</span>
-              <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl">About Us</h1>
+              <span className="text-sm text-gray-300 uppercase">Who we are?</span>
+              <h1 className="mt-2 text-3xl font-black text-gray-100 md:text-5xl">About Us</h1>
             </div>
-            <p className="mb-6 text-base leading-7 text-gray-500 text-justify">
+            <p className="mb-6 text-base leading-7 text-gray-300 text-justify">
               The owner and driving instructor of Kuya Wheels Driving School is Joselito A. Balagbis, commonly referred to by friends as "Kuya Joey". His career in the automotive industry started in 1994 when he became a Stencil Boy for one of the branches of the Land Transportation Office of the Philippines and worked his way up to finally become an Admin Officer for a private firm proponent under the LTO. Mr. Balagbis established Kuya Wheels driving school in December 8, 2020 because of his desire to properly teach aspiring drivers the necessary information they need before getting on the road.
             </p>
           </div>
@@ -55,15 +55,15 @@ export default function About(){
 
 <section className="items-center lg:flex lg:h-screen font-poppins md:mt-10 flex flex-col mx-auto">
   <div className="relative text-center px-10 lg:px-24">
-    <h6 className="text-2xl md:text-3xl font-bold my-10">Our Certificates and Accreditations</h6>
-    <span className="text-gray-600 text-justify md:text-normal">
+    <h6 className="text-gray-700 text-2xl md:text-3xl font-bold my-10">Our Certificates and Accreditations</h6>
+    <span className="text-gray-500 text-justify md:text-normal">
       Throughout the course of his career, Mr. Balagbis obtained his knowledge by taking the appropriate TESDA courses passing every one of them with flying colors. His ever-expanding arsenal of national certificates are proof of his dedication to his craft.
     </span>
   </div>
-  <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6 mb-10">
+  <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6 mb-10 overflow-auto">
     <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {certifications.map((certification, index) => (
-        <div key={index} className="bg-gray-100 border-b-4 border-green-400 p-4 rounded shadow">
+        <div key={index} className="bg-gray-700 border-b-4 border-green-400 p-4 rounded shadow">
           <h3 className="text-md mb-2">{certification.title}</h3>
           {/* Add more details or actions here if needed */}
         </div>
@@ -71,7 +71,7 @@ export default function About(){
     </div>
   </div>
 </section>
-
+<hr class="my-1 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25" />
         </>
     );
 } 

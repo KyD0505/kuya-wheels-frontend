@@ -12,7 +12,7 @@ export default function Booking(){
   <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-10 md:px-7">
     <div className="flex flex-wrap items-center justify-center -mx-4">
       <div className="max-w-2xl px-4 mb-16 lg:mb-0 lg:w-1/2">
-        <h2 className="mb-6 text-md font-bold">
+        <h2 className="mb-6 text-md font-bold text-gray-700">
           Practical Driving Course (PDC) Restriction 3 - refers to vehicles used for the carriage of goods and having a maximum gross vehicle weight exceeding 3,500kg but not exceeding 12,000kg.
         </h2>
         <p className="mb-6 xl:text-sm text-justify sleading-loose text-gray-500">
@@ -25,14 +25,14 @@ export default function Booking(){
       </div>
       <div className="w-full px-4 lg:w-1/2">
         <div className="max-w-sm mx-auto lg:mr-0 lg:ml-auto">
-          <div className="p-6 mb-6 text-center bg-white border rounded-md">
+          <div className="p-6 mb-6 text-center bg-gray-700 border rounded-md">
             <form action="/page/auth/register">
               <div className="mb-6">
                 <h2 className="text-2xl">Book a course now</h2>
               </div>
               <div className="mb-5">
-                <p className="my-2">Requirements</p>
-                <ul className="max-w-md space-y-1 text-gray-500 list-disc text-left list-inside">
+                <p className="my-2 text-gray-300">Requirements</p>
+                <ul className="max-w-md space-y-1 text-gray-300 list-disc text-left list-inside">
                   <li>Ballpen</li>
                   <li>Notebook</li>
                   <li>1pc 2x2 picture</li>

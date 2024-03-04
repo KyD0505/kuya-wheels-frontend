@@ -5,14 +5,14 @@ export default function Register(){
         <div class="relative z-10 flex justify-center h-screen">
           <div class="absolute top-0 bottom-0 left-0 w-full h-full bg-gray-50 lg:bottom-0 lg:h-auto lg:w-full">
             <div class="absolute inset-0 lg:bg-[#00000066]"></div>
-            <img src="https://images.pexels.com/photos/7321/sea-water-ocean-horizon.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="hidden object-cover w-full h-full lg:block" />
+            <img src="https://images.pexels.com/photos/977213/pexels-photo-977213.jpeg?cs=srgb&dl=pexels-l%C3%AA-minh-977213.jpg&fm=jpg&_gl=1*df8dsv*_ga*NjU5NTUyNzA2LjE3MDkwMDI0MDQ.*_ga_8JE65Q40S6*MTcwOTAwMjQwNS4xLjAuMTcwOTAwMjQwNS4wLjAuMA.." alt="" class="hidden object-cover w-full h-full lg:block" />
           </div>
           <div class="flex items-center justify-center">
             <div class="relative max-w-6xl px-4 mx-auto">
               <div class="max-w-xl mx-auto lg:max-w-5xl">
                 <div class="flex flex-wrap items-center">
                   <div class="w-full px-4">
-                    <div class="p-6 shadow-md lg:p-9 bg-gray-50">
+                    <div class="p-6 shadow-md lg:p-9 bg-gray-50 rounded-xl">
                       <h2 class="mb-4 text-xl font-bold lg:mb-8 lg:text-3xl text-gray-700">Register an account</h2>
                       <form action="" class="p-0 m-0">
                         <div>
@@ -45,7 +45,7 @@ export default function Register(){
                             </div>
                           </div>
                         </div>
-                        <div class="flex mt-3 justify-end">
+                        <div class="flex mt-3 justify-start">
                           <div class="flex items-center h-5">
                             <input id="terms" aria-describedby="terms" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300" required="" />
                           </div>
